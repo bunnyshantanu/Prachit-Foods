@@ -31,16 +31,16 @@ export default function Footer() {
                     agro products.
                   </p>
                   <div class="social-btn color-theme">
-                    <a href="https://facebook.com/" tabindex="0">
+                    <a href="https://facebook.com/" target="_blank" tabindex="0">
                       <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="https://twitter.com/" tabindex="0">
+                    <a href="https://twitter.com/"  target="_blank" tabindex="0">
                       <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="https://www.instagram.com/" tabindex="0">
+                    <a href="https://www.instagram.com/"  target="_blank" tabindex="0">
                       <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="https://linkedin.com/" tabindex="0">
+                    <a href="https://linkedin.com/"  target="_blank" tabindex="0">
                       <i class="fab fa-linkedin-in"></i>
                     </a>
                   </div>
