@@ -251,7 +251,7 @@ p {
   margin: 0 0 18px 0;
   color: var(--body-color);
   line-height: 1.75;
-  font-size: 21px;
+  font-size: 18px;
   text-align: justify;
 }
 
@@ -5499,7 +5499,7 @@ ul.wp-block-latest-posts li:last-child {
 .footer-widget.widget_recent_entries a,
 .footer-widget.widget_categories a,
 .footer-widget.widget_nav_menu a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   margin-bottom: 18px;
   font-family: var(--body-font);
@@ -15826,7 +15826,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .service-card_text {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
   margin-bottom: -0.4em;
 }
