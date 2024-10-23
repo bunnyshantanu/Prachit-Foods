@@ -249,7 +249,7 @@ p:empty {
 p {
   font-family: var(--body-font);
   margin: 0 0 18px 0;
-  color: var(--body-color);
+  /* color: var(--body-color); */
   line-height: 1.75;
   font-size: 18px;
   text-align: justify;
@@ -5503,7 +5503,7 @@ ul.wp-block-latest-posts li:last-child {
   font-weight: 500;
   margin-bottom: 18px;
   font-family: var(--body-font);
-  color: var(--body-color);
+  /* color: var(--body-color); */
   display: block;
   max-width: 100%;
   width: max-content;
@@ -5775,7 +5775,7 @@ ul.wp-block-latest-posts li:last-child {
 .widget-contact .contact-info-card .info-card_text {
   font-size: 16px;
   font-weight: 600;
-  color: var(--white-color);
+  /* color: var(--white-color); */
   margin-bottom: -0.3em;
 }
 
@@ -6879,6 +6879,8 @@ ul.wp-block-latest-posts li:last-child {
 .copyright-wrap {
   padding: 15.5px 0;
   border-top: 1px solid #454441;
+  position: relative;
+  z-index: 9;
 }
 
 .copyright-wrap .footer-links ul {
@@ -6915,12 +6917,12 @@ ul.wp-block-latest-posts li:last-child {
 
 .copyright-text {
   margin: 0;
-  color: var(--border-color);
+  /* color: var(--border-color); */
   font-weight: 400;
 }
 
 .copyright-text a {
-  color: var(--white-color);
+  /* color: var(--white-color); */
 }
 
 .copyright-text a:hover {
@@ -7318,7 +7320,7 @@ ul.wp-block-latest-posts li:last-child {
 }
 
 .footer-layout4 .widget_title {
-  color: var(--white-color);
+  /* color: var(--white-color); */
 }
 
 .footer-layout4 .footer-widget.widget_meta a,
@@ -20622,6 +20624,7 @@ span.select2-selection.select2-selection--single:focus {
   bottom: 0;
   width: 100%;
   left: 0;
+  z-index: 1;
 }
 
 .global-carousel {
@@ -20667,19 +20670,26 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .bg2{
-  background-image: url('../assets/4331.jpg');
+  background-image: url('../assets/pb2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bg3{
-  background-image: url('../assets/soyabebem.jpeg');
+  background-image: url('../assets/pbb3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bg4{
-  background-image: url('../assets/garlik.jpeg');
+  background-image: url('../assets/bg55.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.slick-dots li button:before ,.slick-dots li.slick-active button:before{
+  color: var(--theme-color);
+}
+.slick-dots .slick-active button{
+  width: 20px;
 }

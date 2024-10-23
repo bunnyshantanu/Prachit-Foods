@@ -43,7 +43,7 @@ export default function Header() {
                 <div class="col-auto">
                   <div class="header-logo">
                     <a>
-                      <img src={LogoImage} width={"100px"} alt="logo" />
+                      <img src={LogoImage} width={"140px"} alt="logo" />
                     </a>
                   </div>
                 </div>
@@ -131,11 +131,11 @@ export default function Header() {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 col-xl-7 col-lg-7 mt-4">
+                <div class="col-md-6 col-xl-5 col-lg-5 mt-4">
                   <div class="widget-contact">
                     <h3 class="widget_title">Contact Us</h3>
                     <div className="row">
-                      <div class="contact-info-card col-lg-6">
+                      <div class="contact-info-card col-lg-12">
                         <div class="info-card_icon">
                           <i class="fas fa-phone-alt"></i>
                         </div>
@@ -144,7 +144,7 @@ export default function Header() {
                           <h4 class="info-card_text">0731-4970981</h4>
                         </div>
                       </div>
-                      <div class="contact-info-card col-lg-6">
+                      <div class="contact-info-card col-lg-12">
                         <div class="info-card_icon">
                           <i class="fas fa-envelope"></i>
                         </div>
@@ -155,7 +155,7 @@ export default function Header() {
                           </h4>
                         </div>
                       </div>
-                      <div class="contact-info-card col-lg-6">
+                      <div class="contact-info-card col-lg-12">
                         <div class="info-card_icon">
                           <i class="fas fa-map-marker-alt"></i>
                         </div>
@@ -168,7 +168,7 @@ export default function Header() {
                         </div>
                       </div>
 
-                      <div class="contact-info-card col-lg-6">
+                      {/* <div class="contact-info-card col-lg-6">
                         <div class="info-card_icon">
                           <i class="fas fa-map-marker-alt"></i>
                         </div>
@@ -179,7 +179,7 @@ export default function Header() {
                             India
                           </h4>
                         </div>
-                      </div>
+                      </div> */}
 
                       <div class="contact-info-card col-lg-12">
                         <div class="info-card_icon">

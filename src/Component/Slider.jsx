@@ -13,6 +13,9 @@ const HeroSlider = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    waitForAnimate: false,
+    centerPadding: '40px'
+
   };
 
   return (
