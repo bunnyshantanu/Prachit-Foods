@@ -115,17 +115,12 @@ export default function Header() {
                     <div class="menu-all-pages-container">
                       <ul class="menu">
                         <li>
-                          <a>Potatoes</a>
+                          <a>Jyoti Potato</a>
                         </li>
                         <li>
-                          <a>Soyabean Seeds</a>
+                          <a>Lady Rosetta Potato</a>
                         </li>
-                        <li>
-                          <a>Onion</a>
-                        </li>
-                        <li>
-                          <a>Garlic</a>
-                        </li>
+                      
                       
                       </ul>
                     </div>

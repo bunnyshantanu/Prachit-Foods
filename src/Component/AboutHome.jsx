@@ -7,34 +7,36 @@ export default function AboutHome() {
   const rowRef = useRef(null);
 
   useEffect(() => {
-      const observer = new IntersectionObserver(
-          (entries, observer) => {
-              entries.forEach(entry => {
-                  if (entry.isIntersecting) {
-                      entry.target.classList.add('animate__animated', 'animate__fadeInUp');
-                      observer.unobserve(entry.target);
-                  }
-              });
-          },
-          { threshold: 0.1 }
-      );
+    const observer = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add(
+              "animate__animated",
+              "animate__fadeInUp"
+            );
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
 
+    if (titleRef.current) {
+      observer.observe(titleRef.current);
+    }
+    if (rowRef.current) {
+      observer.observe(rowRef.current);
+    }
+
+    return () => {
       if (titleRef.current) {
-          observer.observe(titleRef.current);
+        observer.unobserve(titleRef.current);
       }
       if (rowRef.current) {
-          observer.observe(rowRef.current);
+        observer.unobserve(rowRef.current);
       }
-      
-
-      return () => {
-          if (titleRef.current) {
-              observer.unobserve(titleRef.current);
-          }
-          if (rowRef.current) {
-              observer.unobserve(rowRef.current);
-          }
-      };
+    };
   }, []);
   return (
     <div class="service-area-1 space bg-smoke overflow-hidden">
@@ -62,36 +64,34 @@ export default function AboutHome() {
             <div class="title-area text-center mb-0" ref={rowRef}>
               {/* <span class="sub-title">OUR SERVICES</span> */}
               <h2 class="sec-title" ref={titleRef}>
-                Welcome to <span className="text-theme">Prachit Foods</span>
+                Welcome to <span className="text-theme">Prachit Foods </span>
               </h2>
-              <p >
-                Prachit Foods (India) Pvt. Ltd. is a central India based export
-                company situated in Indore, Madhya Pradesh, India. We offer
-                fresh farm vegetables, industrial food grade material & other
-                food grade material (cereals, pulses, spices & dairy products)
-                as per the client’s requirements. We supply to wholesalers,
-                retailers, food service companies and importers. We offer our
-                clients a full range of vegetables which are sourced directly
-                from the grower and are able to supply to almost any destination
-                in the world.
+              <p>
+                Located in Indore, Madhya Pradesh, Prachit Foods (India) Pvt.
+                Ltd. is dedicated to the cultivation and export of top-quality
+                potatoes and their variants. With a strong focus on quality, we
+                have established ourselves as a trusted supplier in the global
+                market, known for our commitment to delivering fresh, premium
+                produce.
               </p>
-              <p > 
-                 Excellent quality products with prompt and customer-oriented
-                service are the keywords defining Prachit Foods. Our commitment
-                towards providing exceptional service to our clients and our
-                strong work ethics make us one of the best export houses in
-                Central Indian food industry.
+              <p>
+                Our company boasts a robust infrastructure, featuring 500 acres
+                of land devoted to contract farming and three state-of-art cold
+                storage facilities which allows us to maintain strict quality
+                control and ensure a consistent supply. By sourcing potatoes
+                from both Madhya Pradesh and Gujarat, we leverage the
+                agricultural strengths of these key regions, enabling us to meet
+                diverse market demands.
               </p>
 
-              <a class="btn style4" >
+              <a class="btn style4">
                 Learn More <i class="fas fa-angle-double-right"></i>
               </a>
             </div>
           </div>
         </div>
-      <Certificate/>
+        <Certificate />
       </div>
-
     </div>
   );
 }

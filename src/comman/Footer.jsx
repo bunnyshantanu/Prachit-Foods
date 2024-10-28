@@ -21,8 +21,9 @@ export default function Footer() {
                       </a>
                     </div>
                     <p class="about-text">
-                      Prachit Foods (India) Pvt. Ltd. was incepted with an
-                      objective to become leading exporter & supplier of fresh
+                      Prachit Foods (India) Pvt. Ltd., headquartered in the
+                      heart of central India—Indore, Madhya Pradesh is a leading
+                      global exporter and supplier of fresh, premium-quality
                       agro products.
                     </p>
                     <div class="social-btn color-theme">
@@ -69,6 +70,9 @@ export default function Footer() {
                       </li>
                       <li>
                         <a>About Us</a>
+                      </li>
+                      <li>
+                        <a>Product</a>
                       </li>
                       <li>
                         <a>Gallery</a>

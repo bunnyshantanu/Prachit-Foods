@@ -1,6 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import Slider from "react-slick";
+import Img1 from "../assets/cold-1.jpeg";
+import Img2 from "../assets/cold-2.jpeg";
+import Img3 from "../assets/cold-3.jpeg";
+import Img4 from "../assets/cold-4.jpeg";
 
 export default function ColdStorage() {
   const titleRef = useRef(null);
@@ -67,16 +71,17 @@ export default function ColdStorage() {
     ],
   };
   return (
-    <div class="  overflow-hidden ">
+    <div class="space pb-0  overflow-hidden ">
       <div class="container ">
-        <div className="row global-carousel project-slider5">
+        <div className="row global-carousel project-slider5 ">
           <Slider {...settings}>
-            <ProjectCard link="https://www.youtube.com/embed/YroDqi6vcho?si=fCF14-izmzixncST" />
-            <ProjectCard link="https://www.youtube.com/embed/UE0y7vGQmUg?si=ATC1ablM-1cAJnnT" />
-            <ProjectCard link="https://www.youtube.com/embed/AXMR-JFOoIE?si=sCiJ86RRGJlcK1al" />
+            <ProjectCard link={Img1} text={'cold storage'} />
+            <ProjectCard link={Img2} text={'cold storage'}/>
+            <ProjectCard link={Img3} text={'cold storage'}/>
+            <ProjectCard link={Img4} text={'cold storage '}/>
           </Slider>
         </div>
-        <div className="sec-btn mb-0">
+        <div className="sec-btn mb-0 ">
           <div className="icon-box arrow-style2">
             <button
               className="slick-arrow default"

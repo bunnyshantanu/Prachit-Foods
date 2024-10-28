@@ -1,17 +1,17 @@
-import React from 'react'
+import React from "react";
 
-export default function ProjectCard({link }) {
+export default function ProjectCard({ link , text}) {
   return (
-    <iframe
-    className='px-2'
-    width="100%"
-    height="300"
-    src={link}
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen
-  ></iframe>
-  )
+    <div class="project-card style2 px-2 ">
+      <div class="project-card-img">
+        <img src={link} alt=""  className="rounded" />
+      </div>
+      <div class="project-card-details">
+      
+        <h3 class="project-card-title">
+          <a>{text}</a>
+        </h3>
+      </div>
+    </div>
+  );
 }

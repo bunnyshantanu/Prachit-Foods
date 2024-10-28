@@ -16178,7 +16178,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .service-card.style6 .service-card_content {
-  padding: 0 40px 30px;
+  padding: 20px 20px;
 }
 
 .service-card.style6 .service-card_text {
@@ -16680,29 +16680,29 @@ span.select2-selection.select2-selection--single:focus {
   position: relative;
   text-align: center;
   display: inline-block;
-  padding-right: 76px;
+  padding-right: 30px;
   /* Large devices */
   /* Medium devices */
 }
 
 .process-card .process-arrow {
   position: absolute;
-  right: -24px;
-  top: 60px;
+  right: -12px;
+  top: 17px;
 }
 
 .process-card .process-card-icon {
   background: var(--smoke-color);
   color: var(--theme-color);
-  width: 190px;
-  height: 190px;
+  width: 120px;
+  height: 120px;
   font-size: 80px;
   border-radius: 50%;
   margin: 0 auto;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
   position: relative;
   transition: 0.4s;
 }
@@ -16726,12 +16726,13 @@ span.select2-selection.select2-selection--single:focus {
 
 .process-card .process-card-icon img {
   transition: 0.4s;
-  width: 80px;
+  width: 60px;
 }
 
 .process-card .process-card-title {
-  font-size: 22px;
+  font-size: 18px;
   margin-bottom: 0;
+  font-weight: 500;
 }
 
 @media (max-width: 1199px) {
@@ -16768,8 +16769,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .process-area-2 .process-card-wrap:nth-of-type(even) .process-card .process-arrow {
-  right: -6px;
-  top: 80px;
+  right: -40px;
+  top: 68px;
 }
 
 .process-card.style2 .process-arrow {
