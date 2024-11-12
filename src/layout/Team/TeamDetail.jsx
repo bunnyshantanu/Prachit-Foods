@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import Breatcamp from "../../comman/Breatcamp";
 
 // Assuming images are imported like this
@@ -94,7 +94,7 @@ export default function TeamDetail() {
   const teamMember = teamMembers.find((member) => member.id === parseInt(teamId));
 
   if (!teamMember) {
-    return <div>Team member not found.</div>;
+    return <Navigate to="/NotFound" />;
   }
 
   return (

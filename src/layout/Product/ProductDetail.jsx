@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import p1 from "../../assets/Jyoti-Potato.jpg";
 import p2 from "../../assets/333785a.jpg";
 import p3 from "../../assets/seddpotato.png";
@@ -20,6 +20,9 @@ const ProductDetail = () => {
   const { productId } = useParams();
 
   const product = products.find((p) => p.id === parseInt(productId));
+  if (!product) {
+    return <Navigate to="/NotFound" />;
+  }
   const [showModal, setShowModal] = useState(false);
 
   const handleShow = () => setShowModal(true);

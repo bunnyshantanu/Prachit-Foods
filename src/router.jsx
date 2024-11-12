@@ -12,6 +12,7 @@ import Team from "./layout/Team/Team";
 import ProductDetail from "./layout/Product/ProductDetail";
 import ScrollToTop from "./Component/ScrollToTop";
 import TeamDetail from "./layout/Team/TeamDetail";
+import NotFound from "./Component/NotFound";
 
 function AppRouter() {
   return (
@@ -28,6 +29,8 @@ function AppRouter() {
         <Route path="/team" element={<Team />} />
         <Route path="/product/:productId" element={<ProductDetail />} />
         <Route path="/team/:teamId" element={<TeamDetail />} />
+        <Route path="*" element={<NotFound />} />
+
       </Routes>
     </div>
   );
