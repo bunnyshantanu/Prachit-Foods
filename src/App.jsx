@@ -4,6 +4,7 @@ import Home from "./layout/HomePage/Home";
 import Footer from "./comman/Footer";
 import ScrollToTop from "./comman/Scroll";
 import Preloader from "./Component/Preloader";
+import AppRouter from "./router";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -21,7 +22,7 @@ export default function App() {
     <>
       {loading && <Preloader />}
       <Header />
-      <Home />
+        <AppRouter/>
       <Footer />
       <ScrollToTop />
     </>

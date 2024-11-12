@@ -1,83 +1,6 @@
 @charset "UTF-8";
 
-/*=================================
-    CSS Index Here
-==================================*/
-/*
 
-01. Theme Base
-    1.1. Mixin
-    1.2. Function
-    1.3. Variable
-    1.4. Typography
-    1.5. Extend
-    1.7. Wordpress Default
-02. Reset
-    2.1. Container
-    2.2. Grid
-    2.3. Input
-    2.4. Slick Slider
-    2.5. Mobile Menu
-03. Utilities
-    3.1. Preloader
-    3.2. Buttons
-    3.3. Titles
-    3.4. Common
-    3.6. Font
-    3.7. Background
-    3.8. Text Color
-    3.9. Overlay
-    3.10. Animation
-
-04. Template Style
-    4.1. Widget
-    4.2. Header
-    4.3. Footer
-    4.4. Breadcumb
-    4.5. Pagination
-    4.6. Blog
-    4.7. Comments
-    4.8. Hero Area
-    4.9. Error    
-    4.00. Popup Search
-    4.00. Popup Side Menu
-    4.00. Wocommerce
-    4.00. Subscribe
-    4.00. Cart
-    4.00. Checkout
-    4.00. Wishlist
-    4.00. Contact
-    4.00. About
-    4.00. Team
-    4.00. Testimonial
-    4.00. Counter
-    4.00. Client
-    4.00. Simple Sections
-    4.00. Video
-    4.00. Category
-    4.00. Faq
-    4.00. feature
-    4.00. CTA
-    4.00. Service
-    4.00. Pricing
-    4.00. Why choose Us
-    4.00. Project
-    4.00. Event
-    4.00. Gallery
-    4.00. Schedule
-
-05. Spacing
-
-*/
-/*=================================
-    CSS Index End
-==================================*/
-/*=================================
-   01. Theme Base
-==================================*/
-/*------------------- 1.1. Mixin -------------------*/
-/*------------------- 1.2. Function -------------------*/
-/*------------------- 1.3. Variable-------------------*/
 :root {
   --theme-color: #4BAF47;
   --title-color: #24231D;
@@ -13592,6 +13515,7 @@ span.select2-selection.select2-selection--single:focus {
   border-radius: 15px;
   overflow: hidden;
   border: 1px solid var(--border-color);
+  padding:10px
 }
 
 .post-single .post-title,
@@ -20693,4 +20617,49 @@ span.select2-selection.select2-selection--single:focus {
 }
 .slick-dots .slick-active button{
   width: 20px;
+}
+.bg-color{
+  background-color: #034400;
+}
+
+.contact-us .widget-contact .contact-info-card .info-card_icon{
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background-color: #fff;
+  color:var(--theme-color);
+  font-size: 28px;
+}
+
+.contact-us .widget-contact .contact-info-card .info-card_title{
+  color: #fff;
+}
+.contact-us .widget-contact .contact-info-card .info-card_text{
+  color: #fff;
+}
+
+.contact-us .btn{
+  background-color: #212529;
+}
+
+.lg-react-element {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;  gap:20px
+}
+
+.blog-card.style2 .post-contents, .blog-card.style2 .blog-content{
+  background-color: #e5e5e5;
+}
+
+.hellu:after{
+  content: "";
+  position: absolute;
+  right: -30px !important;
+  left: inherit !important;
+ 
+}
+
+.zindex{
+  z-index: 99999;
 }

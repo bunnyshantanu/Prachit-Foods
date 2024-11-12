@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import slider1 from "../assets/hero-7-1.jpg";
 import bg1 from "../assets/20695.jpg";
+import { Link } from "react-router-dom";
 
 const HeroSlider = () => {
   const settings = {
@@ -40,12 +41,12 @@ const HeroSlider = () => {
                     Quality Products Guaranteed!
                   </h1>
                   <div className="btn-wrap " style={{ animationDelay: "0.7s" }}>
-                    <a className="btn style2 style-r0">
+                    <Link to="/about" className="btn style2 style-r0">
                       Read More<i className="fas fa-angle-double-right"></i>
-                    </a>
-                    <a className="btn style3 style-r0">
+                    </Link>
+                    <Link to="/contact" className="btn style3 style-r0">
                       Join Us Now<i className="fas fa-angle-double-right"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -70,12 +71,12 @@ const HeroSlider = () => {
                     Quality Products and Quality Service
                   </h1>
                   <div className="btn-wrap " style={{ animationDelay: "0.7s" }}>
-                    <a href="#" className="btn style2 style-r0">
+                    <Link to="/about" className="btn style2 style-r0">
                       Read More<i className="fas fa-angle-double-right"></i>
-                    </a>
-                    <a href="#" className="btn style3 style-r0">
+                    </Link>
+                    <Link to="/contact" className="btn style3 style-r0">
                       Join Us Now<i className="fas fa-angle-double-right"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -100,12 +101,12 @@ const HeroSlider = () => {
                     Quality Products Guaranteed!
                   </h1>
                   <div className="btn-wrap " style={{ animationDelay: "0.7s" }}>
-                    <a className="btn style2 style-r0">
+                    <Link to="/about" className="btn style2 style-r0">
                       Read More<i className="fas fa-angle-double-right"></i>
-                    </a>
-                    <a className="btn style3 style-r0">
+                    </Link>
+                    <Link to="/contact" className="btn style3 style-r0">
                       Join Us Now<i className="fas fa-angle-double-right"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -130,12 +131,12 @@ const HeroSlider = () => {
                     Quality Products and Quality Service
                   </h1>
                   <div className="btn-wrap " style={{ animationDelay: "0.7s" }}>
-                    <a href="#" className="btn style2 style-r0">
+                    <Link to="/about" className="btn style2 style-r0">
                       Read More<i className="fas fa-angle-double-right"></i>
-                    </a>
-                    <a href="#" className="btn style3 style-r0">
+                    </Link>
+                    <Link to="/contact" className="btn style3 style-r0">
                       Join Us Now<i className="fas fa-angle-double-right"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

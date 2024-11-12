@@ -7,6 +7,7 @@ import step3 from "../assets/warehouse.png";
 import step4 from "../assets/logistics.png";
 import step5 from "../assets/global-distribution.png";
 import step6 from "../assets/support.png";
+import { Link } from "react-router-dom";
 export default function Step() {
   const titleRef = useRef(null);
   const rowRef = useRef(null);
@@ -72,7 +73,7 @@ export default function Step() {
                       <img src={step1} alt="" />
                     </div>
                     <h3 class=" service-card_title">
-                      <a>Sourcing and Procurement</a>
+                      <Link to="/service">Sourcing and Procurement</Link>
                     </h3>
                     <p class="service-card_text text-center">
                       We have established strong relationships with farmers in
@@ -80,9 +81,9 @@ export default function Step() {
                       finest
                     </p>
                   </div>
-                  <a class="btn style5 style-r0">
+                  <Link to="/service" class="btn style5 style-r0">
                     Read More <i class="fas fa-angle-double-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -94,7 +95,7 @@ export default function Step() {
                       <img src={step2} alt="" />
                     </div>
                     <h3 class=" service-card_title">
-                      <a>Contract Farming</a>
+                      <Link to="/service">Contract Farming</Link>
                     </h3>
                     <p class="service-card_text text-center">
                       With a robust land base of 500 acres dedicated to contract
@@ -102,9 +103,9 @@ export default function Step() {
                       ensuring
                     </p>
                   </div>
-                  <a class="btn style5 style-r0">
+                    <Link to="/service" class="btn style5 style-r0">
                     Read More <i class="fas fa-angle-double-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -116,7 +117,7 @@ export default function Step() {
                       <img src={step3} alt="" />
                     </div>
                     <h3 class=" service-card_title">
-                      <a>Cold Storage Facilities</a>
+                      <Link to="/service">Cold Storage Facilities</Link>
                     </h3>
                     <p class="service-card_text text-center">
                       Our cold storage facility in Indore is equipped with the
@@ -124,9 +125,9 @@ export default function Step() {
                       humidity levels
                     </p>
                   </div>
-                  <a class="btn style5 style-r0">
+                    <Link to="/service" class="btn style5 style-r0">
                     Read More <i class="fas fa-angle-double-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -138,7 +139,7 @@ export default function Step() {
                       <img src={step4} alt="" />
                     </div>
                     <h3 class=" service-card_title">
-                      <a>Export Services</a>
+                      <Link to="/service">Export Services</Link>
                     </h3>
                     <p class="service-card_text text-center">
                       We provide tailored export solutions to meet the specific
@@ -146,9 +147,9 @@ export default function Step() {
                       documentation.
                     </p>
                   </div>
-                  <a class="btn style5 style-r0">
+                    <Link to="/service" class="btn style5 style-r0">
                     Read More <i class="fas fa-angle-double-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -160,7 +161,7 @@ export default function Step() {
                       <img src={step5} alt="" />
                     </div>
                     <h3 class=" service-card_title">
-                      <a>Logistics and Distribution</a>
+                      <Link to="/service">Logistics and Distribution</Link>
                     </h3>
                     <p class="service-card_text text-center">
                       From the moment our potatoes are harvested to their
@@ -168,9 +169,9 @@ export default function Step() {
                       ensure a smooth supply
                     </p>
                   </div>
-                  <a class="btn style5 style-r0">
+                    <Link to="/service" class="btn style5 style-r0">
                     Read More <i class="fas fa-angle-double-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -182,16 +183,16 @@ export default function Step() {
                       <img src={step6} alt="" />
                     </div>
                     <h3 class=" service-card_title">
-                      <a>Customer Support and Communication</a>
+                      <Link to="/service">Customer Support and Communication</Link>
                     </h3>
                     <p class="service-card_text text-center">
                       Our team is committed to providing exceptional customer
                       support, addressing inquiries.
                     </p>
                   </div>
-                  <a class="btn style5 style-r0">
+                    <Link to="/service" class="btn style5 style-r0">
                     Read More <i class="fas fa-angle-double-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

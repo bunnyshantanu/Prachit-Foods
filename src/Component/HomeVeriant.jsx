@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import p1 from "../assets/poptat1.jpeg";
 import p2 from "../assets/373.jpg";
+import { Link } from "react-router-dom";
 export default function HomeVeriant() {
 
     const titleRef = useRef(null);
@@ -61,9 +62,9 @@ export default function HomeVeriant() {
                     We also supply eminent entity engaged in offering to our
                     clients a high quality Organic Potatoes
                   </p>
-                  <a class="btn style9 bg-none">
+                  <Link to="/product/1" class="btn style9 bg-none">
                     Read More <i class="fas fa-angle-double-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -75,20 +76,20 @@ export default function HomeVeriant() {
                 </div>
                 <div class="service-card_content">
                   <h3 class="service-card_title ">
-                    <a> Lady Rosetta Potato</a>
+                    <a> Chipsona Potato</a>
                   </h3>
                 </div>
                 <div class="service-card-hover">
                   <h3 class="service-card_title ">
-                    <a>Lady Rosetta Potato</a>
+                    <a>Chipsona Potato</a>
                   </h3>
                   <p class="service-card_text">
                     We also supply eminent entity engaged in offering to our
                     clients a high quality Organic Potatoes
                   </p>
-                  <a class="btn style9 bg-none">
+                  <Link to="/product/2" class="btn style9 bg-none">
                     Read More <i class="fas fa-angle-double-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import shape1 from "../assets/service-shape1-2.png";
 import shape2 from "../assets/service-shape1-2.png";
 import Certificate from "./Certificate";
+import { Link } from "react-router-dom";
 export default function AboutHome() {
   const titleRef = useRef(null);
   const rowRef = useRef(null);
@@ -84,9 +85,9 @@ export default function AboutHome() {
                 diverse market demands.
               </p>
 
-              <a class="btn style4">
+              <Link to="/about" class="btn style4">
                 Learn More <i class="fas fa-angle-double-right"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

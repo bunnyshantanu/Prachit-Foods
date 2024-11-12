@@ -1,6 +1,7 @@
 import React from "react";
 import LogoImage from "../assets/logo12.png";
 import footerbg from "../assets/footer-top4-bg.png";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -9,8 +10,8 @@ export default function Footer() {
         <div class="portfolio-shape1_2 shape-mockup">
           <img src={footerbg} alt="img" />
         </div>
-        <div class="container">
-          <div class="widget-area">
+        <div class="container ">
+          <div class="widget-area zindex position-relative">
             <div class="row justify-content-between">
               <div class="col-md-6 col-xl-4 col-lg-4">
                 <div class="widget footer-widget">
@@ -64,23 +65,29 @@ export default function Footer() {
                   <h3 class="widget_title">Quick links</h3>
 
                   <div class="menu-all-pages-container">
-                    <ul class="menu">
-                      <li>
-                        <a>Home</a>
-                      </li>
-                      <li>
-                        <a>About Us</a>
-                      </li>
-                      <li>
-                        <a>Product</a>
-                      </li>
-                      <li>
-                        <a>Gallery</a>
-                      </li>
-                      <li>
-                        <a>Contact Us</a>
-                      </li>
-                    </ul>
+                  <ul class="menu">
+                        <li>
+                          <Link to="/" >Home</Link>
+                        </li>
+                        <li>
+                          <Link to="/about" >About Us</Link>
+                        </li>
+                        <li>
+                          <Link to="/service" >Service</Link>
+                        </li>
+                        <li>
+                          <Link to="/product" >Product</Link>
+                        </li>
+                        <li>
+                          <Link to="/team" >Team</Link>
+                        </li>
+                        <li>
+                          <Link to="/gallery" >Gallery</Link>
+                        </li>
+                        <li>
+                          <Link to="/contact" >Contact Us</Link>
+                        </li>
+                      </ul>
                   </div>
                 </div>
               </div>
