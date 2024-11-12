@@ -19,6 +19,7 @@ export default function ContactForm() {
             <div className="col-lg-6">
               <div className="form-group">
                 <input
+                required
                   type="text"
                   className="form-control style-border"
                   name="name"
@@ -30,6 +31,7 @@ export default function ContactForm() {
             <div className="col-lg-6">
               <div className="form-group">
                 <input
+                required
                   type="text"
                   className="form-control style-border"
                   name="email"
@@ -41,6 +43,7 @@ export default function ContactForm() {
             <div className="col-lg-6">
               <div className="form-group">
                 <input
+                required
                   type="number"
                   className="form-control style-border"
                   name="number"
@@ -52,6 +55,7 @@ export default function ContactForm() {
             <div className="col-lg-6">
               <div className="form-group">
                 <input
+                required
                   type="text"
                   className="form-control style-border"
                   name="company"
@@ -74,6 +78,7 @@ export default function ContactForm() {
             <div className="col-lg-12">
               <div className="form-group">
                 <textarea
+                required
                   className="form-control style-border"
                   name="message"
                   id="message"

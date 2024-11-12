@@ -21,7 +21,7 @@ const ProductDetail = () => {
 
   const product = products.find((p) => p.id === parseInt(productId));
   if (!product) {
-    return <Navigate to="/NotFound" />;
+    return <Navigate to="/404" />;
   }
   const [showModal, setShowModal] = useState(false);
 

@@ -94,7 +94,7 @@ export default function TeamDetail() {
   const teamMember = teamMembers.find((member) => member.id === parseInt(teamId));
 
   if (!teamMember) {
-    return <Navigate to="/NotFound" />;
+    return <Navigate to="/404" />;
   }
 
   return (
