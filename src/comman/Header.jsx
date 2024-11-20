@@ -62,7 +62,7 @@ export default function Header() {
                       <i className="fas fa-envelope"></i>
                     </Link>
                     <Link
-                      to="https://api.whatsapp.com/send?phone=+917314970981
+                      to="https://api.whatsapp.com/send/?phone=9108966047937&text&type=phone_number&app_absent
 "
                       target="_blank"
                       className="icon-circle"

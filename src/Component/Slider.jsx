@@ -15,18 +15,20 @@ const HeroSlider = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     waitForAnimate: false,
-    centerPadding: '40px'
-
+    centerPadding: "40px",
   };
 
   return (
     <div className="hero-wrapper hero-6">
       <Slider {...settings} className="global-carousel">
-        <div className="hero-slider bg1" style={{ backgroundImage: `url(${bg1})` }}>
+        <div
+          className="hero-slider bg1"
+          style={{ backgroundImage: `url(${bg1})` }}
+        >
           {/* <img src="bg1" alt="" /> */}
           <div className="container">
             <div className="row">
-              <div className="col-lg-6 col-md-8">
+              <div className="col-lg-8 col-md-12">
                 <div className="hero-style6">
                   <span
                     className="hero-subtitle "
@@ -45,7 +47,8 @@ const HeroSlider = () => {
                       Read More<i className="fas fa-angle-double-right"></i>
                     </Link>
                     <Link to="/contact" className="btn style3 style-r0">
-                      Join Us Now<i className="fas fa-angle-double-right"></i>
+                      Connect With Us
+                      <i className="fas fa-angle-double-right"></i>
                     </Link>
                   </div>
                 </div>
@@ -56,7 +59,7 @@ const HeroSlider = () => {
         <div className="hero-slider bg2">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6 col-md-8">
+              <div className="col-lg-8 col-md-12">
                 <div className="hero-style6">
                   <span
                     className="hero-subtitle "
@@ -75,7 +78,8 @@ const HeroSlider = () => {
                       Read More<i className="fas fa-angle-double-right"></i>
                     </Link>
                     <Link to="/contact" className="btn style3 style-r0">
-                      Join Us Now<i className="fas fa-angle-double-right"></i>
+                      Connect With Us
+                      <i className="fas fa-angle-double-right"></i>
                     </Link>
                   </div>
                 </div>
@@ -83,10 +87,13 @@ const HeroSlider = () => {
             </div>
           </div>
         </div>
+        <div className="hero-slider bg6">
+        
+        </div>
         <div className="hero-slider bg3">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6 col-md-8">
+              <div className="col-lg-8 col-md-12">
                 <div className="hero-style6">
                   <span
                     className="hero-subtitle "
@@ -98,14 +105,15 @@ const HeroSlider = () => {
                     className="hero-title "
                     style={{ animationDelay: "0.4s" }}
                   >
-                    Quality Products Guaranteed!
+                    Global Excellence in Every Potato
                   </h1>
                   <div className="btn-wrap " style={{ animationDelay: "0.7s" }}>
                     <Link to="/about" className="btn style2 style-r0">
                       Read More<i className="fas fa-angle-double-right"></i>
                     </Link>
                     <Link to="/contact" className="btn style3 style-r0">
-                      Join Us Now<i className="fas fa-angle-double-right"></i>
+                      Connect With Us
+                      <i className="fas fa-angle-double-right"></i>
                     </Link>
                   </div>
                 </div>
@@ -116,7 +124,7 @@ const HeroSlider = () => {
         <div className="hero-slider bg4">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6 col-md-8">
+              <div className="col-lg-8 col-md-12">
                 <div className="hero-style6">
                   <span
                     className="hero-subtitle "
@@ -128,14 +136,15 @@ const HeroSlider = () => {
                     className="hero-title "
                     style={{ animationDelay: "0.4s" }}
                   >
-                    Quality Products and Quality Service
+                    Harvesting Quality, Delivering Excellence
                   </h1>
                   <div className="btn-wrap " style={{ animationDelay: "0.7s" }}>
                     <Link to="/about" className="btn style2 style-r0">
                       Read More<i className="fas fa-angle-double-right"></i>
                     </Link>
                     <Link to="/contact" className="btn style3 style-r0">
-                      Join Us Now<i className="fas fa-angle-double-right"></i>
+                      Connect With Us
+                      <i className="fas fa-angle-double-right"></i>
                     </Link>
                   </div>
                 </div>

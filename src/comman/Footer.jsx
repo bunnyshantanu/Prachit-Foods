@@ -21,12 +21,12 @@ export default function Footer() {
                         <img src={LogoImage} alt="" />
                       </a>
                     </div>
-                    <p class="about-text">
+                    {/* <p class="about-text">
                       Prachit Foods (India) Pvt. Ltd., headquartered in the
                       heart of central India—Indore, Madhya Pradesh is a leading
                       global exporter and supplier of fresh, premium-quality
                       agro products.
-                    </p>
+                    </p> */}
                     <div class="social-btn color-theme">
                       <a
                         href="https://facebook.com/"
@@ -35,7 +35,7 @@ export default function Footer() {
                       >
                         <i class="fab fa-facebook-f"></i>
                       </a>
-                      <a
+                      {/* <a
                         href="https://twitter.com/"
                         target="_blank"
                         tabindex="0"
@@ -48,7 +48,7 @@ export default function Footer() {
                         tabindex="0"
                       >
                         <i class="fab fa-instagram"></i>
-                      </a>
+                      </a> */}
                       <a
                         href="https://linkedin.com/"
                         target="_blank"

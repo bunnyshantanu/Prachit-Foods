@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import arrow1 from "../assets/process-arrow1-1.png";
 import arrow2 from "../assets/process-arrow1-2.png";
 import step1 from "../assets/potato.png";
-import step2 from "../assets/automatic.png";
+import step2 from "../assets/planting.png";
 import step3 from "../assets/warehouse.png";
 import step4 from "../assets/logistics.png";
 import step5 from "../assets/global-distribution.png";

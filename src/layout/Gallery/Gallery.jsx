@@ -28,6 +28,7 @@ export default function Gallery() {
       <div class="space">
         <div class="container-fluid px-5">
           <LightGallery plugins={[lgThumbnail, lgZoom]}>
+            
             <a
               data-pinterest-text="Pin it1"
               data-tweet-text="lightGallery slide  1"

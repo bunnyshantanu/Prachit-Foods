@@ -73,6 +73,14 @@ export default function ColdStorage() {
   return (
     <div class="space pb-0  overflow-hidden ">
       <div class="container ">
+      <div class="row align-items-center text-xl-start text-center justify-content-center">
+            <div class="col-12 text-center">
+              <div class="title-area" ref={titleRef}>
+                <h2 class="sec-title ">Photo Gallery</h2>
+               
+              </div>
+            </div>
+          </div>
         <div className="row global-carousel project-slider5 ">
           <Slider {...settings}>
             <ProjectCard link={Img1} text={'cold storage'} />

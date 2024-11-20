@@ -6,7 +6,7 @@ export default function ContactInfo() {
       <div class="col-md-6  col-lg-6  bg-color py-5 px-5">
         <div class="widget-contact">
           <div class="title-area">
-            <h2 class="sec-title text-white">Contact Info</h2>
+            <h2 class="sec-title text-white">Reach Out to us</h2>
           </div>{" "}
           <div class="row">
           <div class="contact-info-card col-lg-12">
@@ -16,11 +16,11 @@ export default function ContactInfo() {
               <div class="info-card_content">
                 <p class="info-card_title">Office Address</p>
                 <h4 class="info-card_text">
-                  282, Orbit Mall, A.B. Road, Indore - 452010 (M.P.), India
+                  282, Arbitto Mall, A.B. Road, Indore - 452010 (M.P.), India
                 </h4>
               </div>
             </div>
-            <div class="contact-info-card col-lg-12">
+            {/* <div class="contact-info-card col-lg-12">
               <div class="info-card_icon">
                 <i class="fas fa-map-marker-alt"></i>
               </div>
@@ -30,7 +30,7 @@ export default function ContactInfo() {
                 319, D.M. Tower, Near Janjeerwala Square , Indore - 452010 (M.P.), India
                 </h4>
               </div>
-            </div>
+            </div> */}
             <div class="contact-info-card col-lg-12">
               <div class="info-card_icon">
                 <i class="fas fa-phone-alt"></i>
