@@ -89,7 +89,7 @@ const HeroSlider = () => {
                     <Link to="/about" className="btn style2 style-r0">
                       Read More<i className="fas fa-angle-double-right"></i>
                     </Link>
-                    <Link to="/contact" className="btn style3 style-r0">
+                    <Link to="/#contact" className="btn style3 style-r0">
                       Connect With Us
                       <i className="fas fa-angle-double-right"></i>
                     </Link>
@@ -123,7 +123,7 @@ const HeroSlider = () => {
                     <Link to="/about" className="btn style2 style-r0">
                       Read More<i className="fas fa-angle-double-right"></i>
                     </Link>
-                    <Link to="/contact" className="btn style3 style-r0">
+                    <Link to="/#contact" className="btn style3 style-r0">
                       Connect With Us
                       <i className="fas fa-angle-double-right"></i>
                     </Link>
@@ -155,7 +155,7 @@ const HeroSlider = () => {
                     <Link to="/about" className="btn style2 style-r0">
                       Read More<i className="fas fa-angle-double-right"></i>
                     </Link>
-                    <Link to="/contact" className="btn style3 style-r0">
+                    <Link to="/#contact" className="btn style3 style-r0">
                       Connect With Us
                       <i className="fas fa-angle-double-right"></i>
                     </Link>
@@ -186,7 +186,7 @@ const HeroSlider = () => {
                     <Link to="/about" className="btn style2 style-r0">
                       Read More<i className="fas fa-angle-double-right"></i>
                     </Link>
-                    <Link to="/contact" className="btn style3 style-r0">
+                    <Link to="/#contact" className="btn style3 style-r0">
                       Connect With Us
                       <i className="fas fa-angle-double-right"></i>
                     </Link>
