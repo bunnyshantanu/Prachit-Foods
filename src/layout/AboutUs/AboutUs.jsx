@@ -4,6 +4,7 @@ import shape1 from "../../assets/service-shape1-2.png";
 import shape2 from "../../assets/service-shape1-2.png";
 import a2 from "../../assets/quality.jpg";
 import Certificate from "../../Component/Certificate";
+import Team from "../Team/Team";
 
 export default function AboutUs() {
   const titleRef = useRef(null);
@@ -117,8 +118,9 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
+      <Team/>
 
-      <div class="why-area-1 space overflow-hidden   background-image">
+      <div class="why-area-1 space overflow-hidden bg-light  background-image">
         <div class="container container2">
           <div class="row">
             <div class="col-xl-12 col-lg-8">
@@ -151,56 +153,7 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div class="why-area-1 space overflow-hidden  bg-smoke background-image">
-        <div class="container-fluid px-5">
-          <div class="row">
-            <div class="col-xl-6">
-              <img src={a2} alt="" class="rounded" />
-            </div>
-            <div class="col-xl-6 col-lg-8">
-              <div class="title-area">
-                <h3 class=" h3">Commitment to Quality</h3>
-                <p>
-                  At Prachit Foods, quality is not just a standard but our
-                  identity. Each product we offer undergoes stringent quality
-                  checks, ensuring that our clients receive only the best.
-                  Whether it’s fresh vegetables or industrial-grade food
-                  materials, our unwavering focus on quality and reliability has
-                  made us a preferred choice in both local and international
-                  markets.
-                </p>
-                <p>
-                  With a robust supply chain, a commitment to excellence, and a
-                  deep understanding of the global agro sector, Prachit Foods
-                  (India) Pvt. Ltd. continues to set benchmarks in the industry.
-                  We look forward to fostering long-lasting relationships with
-                  our clients while delivering agricultural excellence across
-                  the world.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="why-area-1 space overflow-hidden   background-image">
-        <div class="container container2">
-        <h3 class=" text-center">Certificates</h3>
-        <p class="text-center">Prachit Foods is registered with 
- ISO 9001:2015, 
- ISO 22000:2005  
- HACCP,  
-FSSAI  
-APEDA.</p>
-<p></p>
-
-          <Certificate/>
-          <p class="pt-3">These certifications represent our genuine efforts to make every product and every technique in 
-          good favour of human and animal consumption. </p>
-        </div>
-      </div>
-
+      
     </>
   );
 }
