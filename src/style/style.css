@@ -1830,6 +1830,7 @@ textarea.is-invalid {
   background: var(--theme-color);
   opacity: 1;
   color: var(--white-color);
+  display: none;
 }
 
 .arrow-style2 .slick-arrow:hover {
@@ -5670,7 +5671,7 @@ ul.wp-block-latest-posts li:last-child {
 
 .widget-contact .contact-info-card {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 .widget-contact .contact-info-card:not(:last-child) {
@@ -5698,7 +5699,7 @@ ul.wp-block-latest-posts li:last-child {
 .widget-contact .contact-info-card .info-card_text {
   font-size: 16px;
   font-weight: 600;
-  /* color: var(--white-color); */
+  color: var(--white-color);
   margin-bottom: -0.3em;
 }
 
@@ -5935,7 +5936,7 @@ ul.wp-block-latest-posts li:last-child {
 }
 
 .main-menu>ul>li {
-  margin: 0 22px;
+  margin: 0 36px;
 }
 
 .main-menu>ul>li>a {
@@ -6796,12 +6797,12 @@ ul.wp-block-latest-posts li:last-child {
 
 /*------------------- 4.3. Footer  -------------------*/
 .footer-wrapper {
-  background: rgba(255, 244, 239, 0.7);
+  background: rgb(0 68 12);
 }
 
 .copyright-wrap {
   padding: 15.5px 0;
-  border-top: 1px solid #454441;
+  border-top: 1px solid #fff;
   position: relative;
   z-index: 9;
 }
@@ -6835,12 +6836,12 @@ ul.wp-block-latest-posts li:last-child {
 }
 
 .widget-area {
-  padding: 80px 0 70px;
+  padding: 80px 0 40px;
 }
 
 .copyright-text {
   margin: 0;
-  /* color: var(--border-color); */
+  color: var(--border-color);
   font-weight: 400;
 }
 
@@ -20558,7 +20559,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .slick-arrow {
-  display: none !important;
+  /* display: none !important; */
 }
 
 .icon-circle {
@@ -20612,7 +20613,7 @@ span.select2-selection.select2-selection--single:focus {
   background-size: cover;
 }
 .bg6{
-  background-image: url('../assets/What-we-do.png');
+  background-image: url('../assets/what-fof.gif');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -20641,7 +20642,10 @@ span.select2-selection.select2-selection--single:focus {
 .contact-us .widget-contact .contact-info-card .info-card_text{
   color: #fff;
 }
-
+.widget-contact .contact-info-card h2{
+  color: #fff;
+  text-align: center;
+}
 .contact-us .btn{
   background-color: #212529;
 }
@@ -20667,3 +20671,76 @@ span.select2-selection.select2-selection--single:focus {
 .zindex{
   z-index: 99999;
 }
+.slick-prev:before, .slick-next:before{
+  display:none;
+}
+.slick-arrow{
+  text-align: center;
+  /* display: grid
+; */
+  min-width: 70px;
+  min-height: 70px;
+  line-height: 80px;
+  /* position: absolute; */
+  display: block;
+  /* z-index: 1000; */
+  /* border-radius: 50%; */
+  /* overflow: hidden; */
+  background: rgba(0, 0, 0, .1);
+  display: flex;
+  align-items: center;
+  /* margin: auto; */
+
+}
+.footer-wrapper i{
+  color: #fff;
+}
+
+.slick-dots {
+  /* position: absolute; */
+  bottom: -50px;}
+
+  .global-carousel   .slick-arrow{
+    /* display: none !important; */
+    background-color: var(--theme-color) !important;
+    margin-top: 0 !important;
+  }
+
+  .hero-6 .hero22::after {
+   
+    background-color:inherit !important
+  }
+  .slick-arrow.slick-next{
+    right: 30px !important;
+  }
+  .slick-arrow.slick-prev{
+    left: 30px !important;
+  }
+
+  .global-carousel .slick-arrow path{
+    fill:#fff !important
+  }
+
+  .gallerri .slick-arrow{
+    display: none !important;
+  }
+  .client-wrap img{
+    width:100%
+  }
+  .aluminium{
+    display: flex;
+  }
+  @media (max-width: 600px) {
+
+    .copyright-text{
+      text-align: center;
+    }
+    .aluminium{
+      display: inherit;
+    }
+    .widget-contact .contact-info-card{
+      justify-content: center;
+    }
+   
+  }
+ 

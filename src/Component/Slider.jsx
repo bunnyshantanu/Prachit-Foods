@@ -5,16 +5,59 @@ import "slick-carousel/slick/slick-theme.css";
 import slider1 from "../assets/hero-7-1.jpg";
 import bg1 from "../assets/20695.jpg";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+// Custom Next Arrow Component
+// Custom Next Arrow Component
+const NextArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "transparent",
+        right: 0,
+      }} // Customize the arrow style
+      onClick={onClick}
+    >
+      <FontAwesomeIcon
+        icon={faArrowRight}
+        style={{ color: "black", fontSize: "2rem" }}
+      />
+    </div>
+  );
+};
 
+// Custom Prev Arrow Component
+const PrevArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "transparent", left: 0 }} // Customize the arrow style
+      onClick={onClick}
+    >
+      <FontAwesomeIcon
+        icon={faArrowLeft}
+        style={{ color: "black", fontSize: "2rem" }}
+      />
+    </div>
+  );
+};
 const HeroSlider = () => {
   const settings = {
-    dots: true,
+    // dots: true,
+    arrows: true,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
     fade: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    waitForAnimate: false,
+    // autoplay: true,
+    // autoplaySpeed: 3000,
+    // waitForAnimate: false,
     centerPadding: "40px",
   };
 
@@ -56,6 +99,9 @@ const HeroSlider = () => {
             </div>
           </div>
         </div>
+        <Link to="/service">
+          <div className="hero-slider bg6 hero22"></div>
+        </Link>
         <div className="hero-slider bg2">
           <div className="container">
             <div className="row">
@@ -87,10 +133,8 @@ const HeroSlider = () => {
             </div>
           </div>
         </div>
-        <div className="hero-slider bg6">
-        
-        </div>
-        <div className="hero-slider bg3">
+    
+        {/* <div className="hero-slider bg3">
           <div className="container">
             <div className="row">
               <div className="col-lg-8 col-md-12">
@@ -151,7 +195,7 @@ const HeroSlider = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </Slider>
     </div>
   );

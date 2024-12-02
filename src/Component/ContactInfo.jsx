@@ -1,65 +1,56 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function ContactInfo() {
   return (
     <>
-      <div class="col-md-6  col-lg-6  bg-color py-5 px-5">
-        <div class="widget-contact">
+      <div class="col-md-4  col-lg-4   my-auto p-0 m-0">
+        <div class="widget-contact bg-color py-5 px-5">
           <div class="title-area">
-            <h2 class="sec-title text-white">Reach Out to us</h2>
+            <h3 class=" text-white">Quick Link</h3>
           </div>{" "}
           <div class="row">
-          <div class="contact-info-card col-lg-12">
-              <div class="info-card_icon">
-                <i class="fas fa-map-marker-alt"></i>
+            <div class="contact-info-card col-lg-12">
+              <div class="n">
+                <i class="fas fa-arrow-right text-white"></i>
               </div>
-              <div class="info-card_content">
-                <p class="info-card_title">Office Address</p>
-                <h4 class="info-card_text">
-                  282, Arbitto Mall, A.B. Road, Indore - 452010 (M.P.), India
-                </h4>
+              <div class="info-card_content text-white">
+                <Link to="/" class="text-white">
+                  Home
+                </Link>
               </div>
             </div>
-            {/* <div class="contact-info-card col-lg-12">
-              <div class="info-card_icon">
-                <i class="fas fa-map-marker-alt"></i>
-              </div>
-              <div class="info-card_content">
-                <p class="info-card_title">Export Office</p>
-                <h4 class="info-card_text">
-                319, D.M. Tower, Near Janjeerwala Square , Indore - 452010 (M.P.), India
-                </h4>
-              </div>
-            </div> */}
+
             <div class="contact-info-card col-lg-12">
-              <div class="info-card_icon">
-                <i class="fas fa-phone-alt"></i>
+              <div class="n">
+                <i class="fas fa-arrow-right text-white"></i>
               </div>
-              <div class="info-card_content">
-                <p class="info-card_title">Phone Number</p>
-                <h4 class="info-card_text">0731-4970981</h4>
+              <div class="info-card_content text-white">
+                <Link to="/about" class="text-white">
+                  About Us
+                </Link>
               </div>
             </div>
+
             <div class="contact-info-card col-lg-12">
-              <div class="info-card_icon">
-                <i class="fas fa-envelope"></i>
+              <div class="n">
+                <i class="fas fa-arrow-right text-white"></i>
               </div>
-              <div class="info-card_content">
-                <p class="info-card_title">Email</p>
-                <h4 class="info-card_text">contact@prachitfoods.com</h4>
+              <div class="info-card_content text-white">
+                <Link to="/product" class="text-white">
+                  Product
+                </Link>
               </div>
             </div>
-          
+
             <div class="contact-info-card col-lg-12">
-              <div class="info-card_icon">
-                <i class="fas fa-clock"></i>
+              <div class="n">
+                <i class="fas fa-arrow-right text-white"></i>
               </div>
-              <div class="info-card_content">
-                <p class="info-card_title">Hours</p>
-                <h4 class="info-card_text">
-                  Mon - Sat: 11:00AM - 06:00PM .<br />
-                  Sunday: Closed
-                </h4>
+              <div class="info-card_content text-white">
+                <Link to="/gallery" class="text-white">
+                  Gallery
+                </Link>
               </div>
             </div>
           </div>

@@ -43,12 +43,13 @@ export default function ColdStorage() {
     };
   }, []);
   const settings = {
-    dots: true,
-    infinite: true,
+    // dots: true,
+    arrow:false,
+    infinite: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    
+
     responsive: [
       {
         breakpoint: 1200,
@@ -71,22 +72,21 @@ export default function ColdStorage() {
     ],
   };
   return (
-    <div class="space pb-0  overflow-hidden ">
+    <div class="space   overflow-hidden gallerri">
       <div class="container ">
-      <div class="row align-items-center text-xl-start text-center justify-content-center">
-            <div class="col-12 text-center">
-              <div class="title-area" ref={titleRef}>
-                <h2 class="sec-title ">Photo Gallery</h2>
-               
-              </div>
+        <div class="row align-items-center text-xl-start text-center justify-content-center">
+          <div class="col-12 text-center">
+            <div class="title-area" ref={titleRef}>
+              <h2 class="sec-title ">Photo Gallery</h2>
             </div>
           </div>
+        </div>
         <div className="row global-carousel project-slider5 ">
           <Slider {...settings}>
-            <ProjectCard link={Img1} text={'cold storage'} />
-            <ProjectCard link={Img2} text={'cold storage'}/>
-            <ProjectCard link={Img3} text={'cold storage'}/>
-            <ProjectCard link={Img4} text={'cold storage '}/>
+            <ProjectCard link={Img1} text={"Nilkanth Cold Store, Indore"} tott="gallery" />
+            <ProjectCard link={Img2} text={"Raghav Cold Store"} tott="gallery" />
+            <ProjectCard link={Img3} text={"Farms and Products"} tott="product" />
+            {/* <ProjectCard link={Img4} text={"cold storage "} />  */}
           </Slider>
         </div>
         <div className="sec-btn mb-0 ">

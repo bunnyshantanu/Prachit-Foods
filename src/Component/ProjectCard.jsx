@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export default function ProjectCard({ link , text}) {
+export default function ProjectCard({ link , text ,tott}) {
   return (
     <div class="project-card style2 px-2 ">
       <div class="project-card-img">
@@ -9,7 +10,7 @@ export default function ProjectCard({ link , text}) {
       <div class="project-card-details">
       
         <h3 class="project-card-title">
-          <a>{text}</a>
+          <Link to={tott}>{text}</Link>
         </h3>
       </div>
     </div>

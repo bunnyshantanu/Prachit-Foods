@@ -86,12 +86,11 @@ export default function AboutHome() {
               </p>
 
               <Link to="/about" class="btn style4">
-                Learn More <i class="fas fa-angle-double-right"></i>
+                About Us <i class="fas fa-angle-double-right"></i>
               </Link>
             </div>
           </div>
         </div>
-        <Certificate />
       </div>
     </div>
   );
